@@ -1,0 +1,1 @@
+sudo docker exec -it pgsql96.fias.app psql -a -U postgres -d fias -f /vagrant/env/pgsql/schemarecreate.sql
